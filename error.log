@@ -1,0 +1,6 @@
+[13-Oct-2022 08:46:14 UTC] PHP Notice:  Undefined variable: current_page in C:\wamp64\www\salesapp\app\controllers\SubscribeController.php on line 148
+[13-Oct-2022 08:46:14 UTC] PHP Stack trace:
+[13-Oct-2022 08:46:14 UTC] PHP   1. {main}() C:\wamp64\www\salesapp\index.php:0
+[13-Oct-2022 08:46:14 UTC] PHP   2. Router->init() C:\wamp64\www\salesapp\index.php:106
+[13-Oct-2022 08:46:14 UTC] PHP   3. Router->run($url = 'subscribe/add') C:\wamp64\www\salesapp\system\Router.php:109
+[13-Oct-2022 08:46:14 UTC] PHP   4. SubscribeController->add($formdata = ['email' => 'mrabiu2009@gmail.com', 'message' => 'I will like to partner with you']) C:\wamp64\www\salesapp\system\Router.php:196
